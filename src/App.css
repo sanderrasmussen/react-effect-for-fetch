@@ -1,5 +1,8 @@
 body {
-  margin: 0;
+  margin: 2%;
+  display: flex;
+  
+  font-family: Verdana,  Tahoma, sans-serif;
 }
 
 * {
@@ -45,4 +48,20 @@ img {
 
 .bg-pink {
   background-color: #f3e5f5;
+}
+.userCard{
+  padding: 5%;
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  box-shadow: 1px 1px 5px;
+}
+.profilePicture{
+  width: 30%;
+  height: 30%;
+}
+li{
+  margin: 5%;
+  list-style: none;
+  border-bottom: 1px solid grey;
+
 }
