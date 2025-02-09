@@ -1,7 +1,8 @@
 body {
   margin: 2%;
   display: flex;
-  
+  background-color: rgb(38, 38, 38);
+  color: white;
   font-family: Verdana,  Tahoma, sans-serif;
 }
 
@@ -24,13 +25,12 @@ ul[class] {
 
 .scroll-container {
   height: calc(100vh - 120px);
-
   overflow-y: scroll;
 }
 
 img {
   max-width: 100%;
-
+  border-radius: 5px;
   object-fit: cover;
 }
 
@@ -50,6 +50,7 @@ img {
   background-color: #f3e5f5;
 }
 .userCard{
+  border-radius: 2px;
   padding: 5%;
   border-bottom: 1px solid grey;
   border-right: 1px solid grey;
@@ -58,10 +59,20 @@ img {
 .profilePicture{
   width: 30%;
   height: 30%;
+  border-radius: 2px;
 }
 li{
   margin: 5%;
   list-style: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
 
+}
+button{
+  background-color: rgb(156, 183, 253);
+  border-radius: 2px;
+  padding: 1%;
+  border: none;
+  margin: 2%;
+  font-weight: bold;
+  box-shadow: 3px 3px 7px white;
 }
